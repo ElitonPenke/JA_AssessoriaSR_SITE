@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
 
-body, html {
+* {
     margin: 0;
     padding: 0;
     font-family: "Poppins", sans-serif;
@@ -91,7 +91,7 @@ footer {
   }
   
   .footer-bottom {
-    background-color: #222222ab;
+    background-color: #070707ab;
     padding: 10px 0;
     margin-top: 0px;
   }
@@ -100,3 +100,58 @@ footer {
     margin: 0;
     font-size: 15px;
   }
+  main {
+    box-sizing: border-box;
+}
+
+.container {
+    padding: 100px;
+}
+
+.section {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 70px;
+    padding: 25px;
+    background-color: rgb(11, 11, 134); 
+    border-radius: 10px;
+    color: #fff;
+}
+
+.logo2 {
+    max-width: 40%;
+    border-radius: 5px;
+}
+
+.text {
+    max-width: 50%;
+}
+
+.video iframe {
+    width:100%;
+    height: 315px; 
+    border-radius: 3px;
+}
+
+.states {
+    text-align: center;
+    margin: 20px 0;
+}
+
+.flags {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.flags img {
+    width: 90px;
+    height: 60px;
+    margin: 10px;
+    transition: transform 0.3s ease;
+}
+
+.flags img:hover {
+    transform: scale(1.3);
+}
