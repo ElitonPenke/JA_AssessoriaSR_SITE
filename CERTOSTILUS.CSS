@@ -14,7 +14,7 @@ header {
   align-items: center;
   padding: 10px 15px;
   background-color: rgb(255, 255, 255);
-  box-shadow: 0 0 1rem rgba(0, 0, 0, 0.427);
+  box-shadow: 0 1PX 1rem rgba(0, 0, 0, 0.427);
 }
 
 .logo img {
@@ -55,7 +55,7 @@ nav {
 }
 
 .nav-links a:hover {
-  color: #000000c4;
+  color: #0c2091c4;
 }
 
 @media (max-width: 768px) {
@@ -115,13 +115,12 @@ nav {
   justify-content: flex-start;
   top: 35%;
   left: 2%;
-  transform: translateY(-50%);
+  transform: translateY(-20%);
   padding: 25px;
   color: white;
   font-size: 2em;
   z-index: 2; 
-  background-color: #00000029;
-  border-radius: 10px;
+ 
  
 }
 
@@ -129,10 +128,19 @@ nav {
 .texto1 {
   display: inline-block;
   transition: transform 0.3s ease, color 0.3s ease;
+  font-size: 1.5em;
+}
+.texto2{
+  font-size: 0.8em;
+  transition: transform 0.3s ease, color 0.3s ease;
+
 }
 
 .texto1:hover {
   transform: scale(1.1); 
+}
+.texto2:hover {
+  transform: scale(1.1);
 }
 
 
