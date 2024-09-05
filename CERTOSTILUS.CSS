@@ -304,3 +304,42 @@ footer {
   font-size: 1em;
   color: rgba(10, 10, 211, 0.842);
 }
+
+.caixarespostas {
+  margin: 0;
+  padding: 20px;
+}
+
+.caixinhass {
+  max-width: 500px;
+  margin: 0 auto;
+}
+
+.box {
+  color: #ffffff;
+  margin-bottom: 10px;
+}
+
+.header {
+  padding: 15px;
+  cursor: pointer;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #1c4d9689;
+  border-radius: 5px;
+
+}
+
+.arrow {
+  font-size: 22px;
+  color: #ffffff;
+}
+
+.content {
+  padding: 10px;
+  display: none;
+  color: black;
+  max-width: 100%;
+
+}
