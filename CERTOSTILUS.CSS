@@ -10,6 +10,7 @@
 
 header {
   width: 100%;
+  height: 5%;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -35,22 +36,22 @@ header {
     margin-top: 100px;
     box-shadow: 0 1px 1rem rgba(0, 0, 0, 0.486);
     padding: 20px;
-    margin: 40px;
-    margin-top: 60px;
+    margin: 20px;
+    margin-top: 10px;
     background-image:linear-gradient(to bottom,#1c4d96d4,#607ec9)
   
 }
 
 .text-content {
     flex: 1;  
-    padding: 30px;
+    padding: 20px;
 }
 
 .image-content img {
     max-width: 80VH;
     height: auto;
     border-radius: 8px;
-    padding-left: 20px;
+    padding-left: 19px;
 }
 
 @media (max-width: 768px) {
@@ -60,24 +61,41 @@ header {
     }
     
     .image-content img {
-        width: 100%;
+        width: 90%;
         height: auto;
         text-align: center;
+        border-radius: 0;
     }
     
     .text-content {
         text-align: center;
         margin-bottom: 20px;
     }
-    .logo2{
-      width: 100%;
-      height: auto;
-    }
-    .textosobre{
+    .textoscorpo {
+      flex-direction: row; 
+      justify-content: flex-start; 
+      align-items: flex-start; 
       flex-direction: column;
-      align-items: flex-start;
+  }
+  .textosobre,h1{
+    width: 21em;
+    text-align:left;
+  } 
+   
+    .CAIXAS {
+      display: none;
+
     }
-}
+    header {
+      display: none;
+  }
+
+  .logo {
+      margin-bottom: 10px;
+  }
+
+
+  }
 
 
 
@@ -123,33 +141,7 @@ nav {
   color: #0c2091c4;
 }
 
-@media (max-width: 768px) {
-  header {
-      flex-direction: column;
-  }
 
-  .logo {
-      margin-bottom: 10px;
-  }
-
-  nav {
-      width: 100%;
-      text-align: center;
-  }
-
-  .nav-links {
-      flex-direction: column;
-      align-items: center;
-  }
-
-  .nav-links li {
-      margin-left: 0;
-      margin-bottom: 10px;
-  }
-  .JA{
-    padding-right: 50px;
-  }
-}
 
 .imagentop {
   margin: 0;
@@ -161,18 +153,18 @@ nav {
 .imagentop {
   position: relative;
   width: 100%;
-  height: 500px; 
+  height: 600px; 
 
 }
 
 
 .imagenslogan {
-  position: absolute;
+  position:absolute;
   top: 0;
   left: 0;
   width: 100%;
   height: 100%;
-  object-fit: cover;
+  object-fit:cover;
   z-index: 1; 
   box-shadow: 0 2px 1rem rgba(11, 30, 154, 0.918);
 
@@ -181,8 +173,8 @@ nav {
 .textslogan {
   position: absolute;
   justify-content: flex-start;
-  top: 35%;
-  left: 2%;
+  top: 45%;
+  left: 5%;
   transform: translateY(-20%);
   padding: 25px;
   color: white;
@@ -284,7 +276,7 @@ footer {
    
 }
 .textosobre{
-  text-indent: 20px;
+  text-indent: 50px;
   }
 
 .textoscorpo {
@@ -292,18 +284,17 @@ footer {
    justify-content: space-between;
    border-radius: 10px;
    color: #fff;
-   margin-top: 100px;
    box-shadow: 0 1px 1rem rgba(0, 0, 0, 0.486);
    padding: 20px;
-   margin: 40px;
-   margin-top: 25px;
-   background-image:linear-gradient(to bottom,#1c4d96d4,#607ec9)
+   margin: 20px;
+   margin-top: 30px;
+   background-image:linear-gradient(to bottom,#1c4d96f6,#607ec9f6)
 
 }
 
 
 .logo2 {
-    max-width: 45%;
+    max-width: 35%;
     border-radius: 5px;
 }
 
