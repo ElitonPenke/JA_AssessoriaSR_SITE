@@ -4,6 +4,8 @@
 
 Este projeto consiste em um website desenvolvido para a empresa JA Assessorias, com o objetivo principal de modernizar a presença online da empresa, apresentar seus serviços de forma clara e profissional, e atrair novos clientes. O desafio foi enorme visto que nunca tinha feito algo parecido, muito das contetencias necessarios para tla projeto fuiuiaadquirindo conformeo projeto avançava.
 
+link da pag: https://jaassessoriasr.com.br
+
 ## Funcionalidades
 
 - **Página Inicial: Apresentação da empresa e seus principais serviços.
