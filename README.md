@@ -20,18 +20,3 @@ link da pag: https://jaassessoriasr.com.br
 - **CSS3: Estilização e design visual do site.
 - **JavaScript:*Interatividade e funcionalidades dinâmicas.
 
-## Como Rodar o Projeto
-
-Para visualizar o projeto localmente, siga os passos abaixo:
-
-1. Clone este repositório para sua máquina local:
-   ```bash
-   git clone https://github.com/seu-usuario/JAassessoriasrSITE-main.git
-   ```
-2. Navegue até o diretório do projeto:
-   ```bash
-   cd JAassessoriasrSITE-main
-   ```
-3. Abra o arquivo `corpo.html` (ou `CERTOCORPO.html` se for a página principal) em seu navegador web preferido.
-
-
